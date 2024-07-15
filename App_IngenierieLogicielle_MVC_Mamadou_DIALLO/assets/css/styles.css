@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* BANNIERE */
+.banner {
+    background-color: #5DADE2;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* SECTION: NAVIGATION */
+nav {
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+/* SECTION: CONTENU */
+.content {
+    padding: 1rem;
+}
+
+/*Container du Contenu*/
+.content-container {
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/*Style de chaque article */
+.article {
+    margin-bottom: 20px; /* Espace entre chaque article */
+    padding: 20px; 
+    background-color: white; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+/* Couleur du titre de l'article */
+.article h2 {
+    color: #333; 
+}
+
+/* Couleur du texte(contenu) de l'article */
+.article p {
+    color: #666; 
+}
+
+/* Couleur de la date de publication de l'article */
+.article small {
+    color: lightcoral;
+}
+
+/* SECTION: FOOTER */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
